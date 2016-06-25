@@ -1,0 +1,36 @@
+---
+layout: "blog-index"
+permalink: "/blog/"
+title:  "Blog"
+navorder: '4'
+subtitle: "This is your blog index page."
+masthead:
+  img_path:
+  pat_path: /img/backgrounds/blog.png
+comments:
+share:
+---
+
+
+
+<div class="blog">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.author %}
+        {% assign author = site.authors | where:"name", post.author | first %}
+      {% endif %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta small">{{ post.date | date: "%b %-d, %Y" }}</p>
+        {{ post.excerpt }}
+        {% include post-meta.html %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
