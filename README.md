@@ -2,13 +2,13 @@
 
 'Brochure Site' is a Jekyll theme that makes it easy to build simple small business websites that requires zero maintenance, designed for use on [BowTie.io](https://bowtie.io). This template is meant as a learning resource. It is compatible with other BowTie components and templates.
 
-This template includes a number of standard small business friendly elements generated from collection objects. Features include a countdown timer, data collection using BowTie's prospect registration, error pages, a maintenance page, and user management and registration provided by BowTie.
+This template includes a number of standard small business friendly elements generated from collection objects. Including: features, service sections, testimonials, contact page, map, data collection using BowTie's prospect registration, error pages, a maintenance page, and user management and registration provided by BowTie.
 
 Content in this template is editable via the [BowTie Collection Editor](https://bowtie.io/help/working-with-jekyll-collections-bowtie/).
 
 The theme uses [jquery](https://jquery.com/), [bootstrap](http://getbootstrap.com/), [fontawesome](https://fortawesome.github.io/Font-Awesome/), and a custom theme styles written in [SCSS](http://sass-lang.com/).  
 
-### [View Example Site](https://event.bowtied.io/)
+### [View Example Site](https://brochure.bowtied.io/)
 
 ## Documentation
 This template is compatible with Jekyll 3.x. Jekyll will interpret liquid, markdown, and  standard HTML. For information on using Jekyll see the [Jekyll documentation](http://jekyllrb.com/). For thorough documentation of this template and the added BowTie features, view the [BowTie docs](https://bowtie.io/docs/#projects).
